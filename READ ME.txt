@@ -1,0 +1,21 @@
+This is the link to my website:
+
+http://ridishashetty.uta.cloud/shetty_portfolio/home.php
+
+The admin panel is here:
+http://ridishashetty.uta.cloud/shetty_portfolio/admin.php
+
+which will help open up dashboard:
+http://ridishashetty.uta.cloud/shetty_portfolio/dashboard.php
+
+But, to open dashboard.php, you need to specify correct login credentials at admin.php:
+	User: admin
+	Password: _secure@
+
+Once you are in dashboard.php, you can update data on all the pages in the website. You can browse the website:
+	http://ridishashetty.uta.cloud/shetty_portfolio/home.php
+to view the corresponding changes
+
+Other than a dynamic website, and authenticated admin panel with option to login. I've made other changes. I have
+added HTML, PHP, JS validations to both login and sign up page. The contact page is coded to send the email to the
+admin email ID.
