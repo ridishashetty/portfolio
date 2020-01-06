@@ -1,0 +1,30 @@
+.icon{
+  height:40px;
+  width:40px;
+  border-radius:180px;
+}
+#tab{
+  text-align: center;
+}
+#chosen{
+  box-shadow: 1px 1px 15px 3px lightgray;
+}
+main{
+  width: 100%;
+  text-align: center;
+}
+#wrapper{
+  width:80%;
+  margin: auto;
+}
+#wrapper img{
+  width:96%;
+  margin: 1vw;
+}
+
+@media only screen and (min-device-width:450px) {
+  .work{
+    width:47%;
+    display: inline-block;
+  }
+}

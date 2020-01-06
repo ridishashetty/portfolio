@@ -1,0 +1,126 @@
+/*FOR smart phones*/
+@media only screen and (max-device-width:450px){
+  body
+  {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+  }
+
+  header
+  {
+    background-color:#378C3F;   /*rgb(70,140,60)*/
+    margin: auto;
+  }
+  #bar
+  {
+    font-size: 4.5vw;
+    font-weight: bold;
+    float: right;
+  }
+  #bar:hover{
+    font-size: 5vw;
+    text-shadow: 0.5px 0.5px 0.5px;
+  }
+  #head{
+    padding: 2.5vw;
+    font-weight: bold;
+  }
+  #dropdown
+  {
+    font-weight: bold;
+    border: 2px solid rgb(80, 159, 68);
+    background-color: rgb(80, 159, 68);
+    text-align: center;
+  }
+  .opt
+  {
+    margin: 0px;
+    border-bottom: 2px solid #378C3F;
+    padding: 0.70em;
+  }
+  .opt:hover
+  {
+    background-color:#378C3F;
+  }
+}
+@media only screen and (max-width:450px){
+  body
+  {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vw;
+  }
+
+  header
+  {
+    background-color:#378C3F;   /*rgb(70,140,60)*/
+    margin: auto;
+  }
+  #bar
+  {
+    font-size: 4.5vw;
+    font-weight: bold;
+    float: right;
+  }
+  #head{
+    padding: 2.5vw;
+    font-weight: bold;
+  }
+  #dropdown
+  {
+    font-weight: bold;
+    border: 2px solid rgb(80, 159, 68);
+    background-color: rgb(80, 159, 68);
+    text-align: center;
+  }
+  .opt
+  {
+    margin: 0px;
+    border-bottom: 2px solid #378C3F;
+    padding: 0.70em;
+  }
+  .opt:hover
+  {
+    background-color:#378C3F;
+  }
+}
+
+/*FOR Ipad's AND Desktops*/
+@media only screen and (min-device-width:450px)
+{
+  body
+  {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vw;
+  }
+  header
+  {
+    background-color:#378C3F;   /*rgb(70,140,60)*/
+  }
+  #bar
+  {
+    display: none;
+  }
+  #head{
+    padding: 1.5vw;
+    display: inline-block;
+    font-weight: bold;
+  }
+  #dropdown
+  {
+    font-weight: bold;
+    padding: 1.5vw;
+    float: right;
+  }
+  .opt{
+    display: inline-block;
+    margin: auto;
+    margin: 0px 0.7vw;
+  }
+  .opt:hover
+  {
+    text-shadow: 1px 1px 2px;
+  }
+}

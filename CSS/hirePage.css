@@ -1,0 +1,112 @@
+tr:last-of-type td{
+  background-color: rgb(235,235,235);
+  border-bottom: none;
+}
+td a{
+  color:green;
+}
+/*.img:nth-child(1)
+{
+  background-color:#378C3F;
+}*/
+
+@media only screen and (max-device-width: 450px)
+{
+  .outline{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 0.5em;
+    color:black;
+    box-shadow: 0px 0.5px 10px 3px rgb(200,200,200);
+  }
+  .img img{
+    padding: 1em 1.3em;
+    transform: rotateY(180deg);
+    width:16vw;
+    height:14vw;
+  }
+  .price{
+    margin-left: 0.2em;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .title{
+    margin-left: 0.5em;
+    font-size: 0.7em;
+  }
+  .head{
+    margin-top: 0.5em;
+  }
+  .job{
+    font-size: 0.7em;
+  }
+  .job table{
+    border-spacing: 0.5em;
+    margin-top: 0.5em;
+    width:35vw;
+  }
+  .job td{
+    border-bottom: 1px solid gray;
+  }
+}
+
+@media only screen and (min-device-width: 450px){
+  .outline{
+    position: relative;
+    height: 35em;
+    margin: auto;
+    color:black;
+    box-shadow: 0px 0.5px 10px 3px rgb(200,200,200);
+  }
+  .img{
+    width: 25vw;
+    text-align: center;
+  }
+  .img img{
+    padding: 1em 1.3em;
+    transform: rotateY(180deg);
+    width:18vw;
+    height:14vw;
+  }
+#wrapper{
+    display: flex;
+    margin: auto;
+    width: 80%;
+  }
+  hr{
+    visibility: hidden;
+  }
+  .title{
+    text-align: center;
+    color: rgb(138,135,143);
+    font-size: 1em;
+  }
+  .price{
+    text-align: center;
+    font-size: 1.8em;
+  }
+  .head{
+    margin: 1em;
+    font-size: 1em;
+  }
+  .job{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb(138,135,143);
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .job table{
+    width: 100%;
+  }
+  .job td{
+    border-bottom: 1px solid rgb(138,135,143);
+    padding: 0.6em;
+  }
+  tr:first-child td:first-child
+  {
+    border-top:1px solid rgb(138,135,143);
+  }
+}

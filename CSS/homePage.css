@@ -1,0 +1,93 @@
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#heroImg{
+  position: relative;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 37vw;
+  background-repeat: repeat-y;
+}
+
+#full{
+  position: relative;
+}
+#main{
+  width: 100%;
+  position: absolute;
+  top:4vw;
+  text-align: center;
+}
+#main table
+{
+  padding: 0px;
+  width: 100%;
+}
+
+  .dp
+  {
+    height:13vw;
+    width:13vw;
+    border-radius:180px;
+  }
+  .small{
+    color: #FFFFFF ;
+    font-size: 2vw;
+  }
+  #title
+  {
+    font-size:3.5vw;
+    font-weight:bold;
+    padding-top:2vw;
+  }
+button{
+  font-size: 2vw;
+  background-color:#378C3F;
+  color:#FFFFFF;
+  border:none;
+  padding:1vw 1vw 1vw 1vw;
+  width:18vw;
+  margin-top: 1vw;
+}
+button:hover{
+  background-color: darkgreen;
+}
+
+#social
+{
+  position: relative;
+  top:-1em;
+  text-align: center;
+}
+.icons{
+  height: 45px;
+  width: 45px;
+  border-radius:100px;
+}
+.icons:hover{
+  box-shadow: 1px 1px 5px 2px rgb(156,156,156);
+}
+#social table
+{
+  margin: auto;
+}
+
+@media only screen and (min-device-width:450px){
+  #social
+  {
+    top:-1.6em;
+  }
+}
+@media only screen and (max-device-width:450px){
+  #title{
+    font-size: 4vw;
+  }
+  .small{
+    font-size: 2.2vw;
+  }
+  button{
+    font-size: 2.3vw;
+  }
+}
